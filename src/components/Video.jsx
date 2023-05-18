@@ -1,5 +1,5 @@
-import videoSpace from "./videoSpace.mp4";
-import './styles/logo.css'
+import videoSpace from "../videoSpace.mp4";
+import '../styles/logo.css'
 
 
 export default function Video() {

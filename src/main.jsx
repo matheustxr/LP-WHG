@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './Header'
-import Video from './video'
-import Apresentation from './apresentation'
+import Header from './components/Header'
+import Video from './components/Video'
+import Apresentation from './components/Apresentation'
 
 import './styles/global.css'
 
