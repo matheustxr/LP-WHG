@@ -4,9 +4,19 @@
 svg {
   display: flex;
   font: 20em 'arial';
-  width: 600px;
-  height: 300px;
+  width: 350px;
+  height: 175px;
   margin: 0 auto;
+}
+
+@media only screen and (min-width:768px) {
+  svg {
+    display: flex;
+    font: 20em 'arial';
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+  }
 }
 
 :not(svg){

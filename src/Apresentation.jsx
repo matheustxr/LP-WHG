@@ -4,7 +4,7 @@ function Apresentation() {
     return (
       <div className="w-full h-full flex flex-col items-center">
         <h1 className="text-5xl my-4"> Sobre a WHG</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qh_qND6S5a4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="w-[300px] h-[200px] lg:w-[750px] lg:h-[450px] rounded" src="https://www.youtube.com/embed/Qh_qND6S5a4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p className="my-5 w-4/6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum fugiat perspiciatis 
           similique, sunt doloribus earum quam eius molestiae temporibus. Dolores, excepturi. Animi similique assumenda fuga, omnis 
           exercitationem deserunt tenetur fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis, facilis inventore laboriosam totam 
