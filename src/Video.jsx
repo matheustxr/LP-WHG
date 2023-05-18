@@ -1,4 +1,4 @@
-import videoSpace from "./assets/videoSpace.mp4";
+import videoSpace from "../public/videoSpace.mp4";
 import './styles/logo.css'
 
 
