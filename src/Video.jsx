@@ -5,7 +5,7 @@ import './styles/logo.css'
 export default function Video() {
     return (
       <div className="relative z-0 ">
-        <video className="w-full max-h-400 object-cover" src={videoSpace} autoPlay loop muted /> 
+        <video className="w-full h-screen object-cover" src={videoSpace} autoPlay loop muted /> 
 
         <div className="absolute z-10 top-0 flex flex-col w-full h-full justify-center items-center">
           <div className="flex w-full  justify-center items-center">
