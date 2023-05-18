@@ -1,0 +1,57 @@
+
+
+
+svg {
+  display: flex;
+  font: 20em 'arial';
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+:not(svg){
+  transform-origin: 0px 0px;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #175367;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #175367;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #2689AC;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #2689AC;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #CBB47B;
+  animation-delay: -5s;
+}
+
+.text-copy:nth-child(6){
+  stroke: #CBB47B;
+  animation-delay: -5.8s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
