@@ -66,7 +66,7 @@ export default function SlideDepoiment() {
 
                 <SwiperSlide>
                     <Depoiment
-                        depoiment= "ole me chamo matheus e trabalho na bmouse, a bmouse integra seus colaboradores como parte de sua familia e cada dia vc se sente mais pertecente a este lugar"
+                        depoiment= "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum fugiat perspiciatis similique, sunt doloribus earum quam eius molestiae temporibus. Dolores, excepturi. Animi similique assumenda fuga, omnis exercitationem deserunt tenetur fugiat?"
                         image= "https://attaxx.netlify.app/_ipx/w_256,q_75/%2F_next%2Fstatic%2Fmedia%2F2.bad2751c.png?url=%2F_next%2Fstatic%2Fmedia%2F2.bad2751c.png&w=256&q=75"
                         name= "Matheus Teixeira"
                         cargo= "Programador"

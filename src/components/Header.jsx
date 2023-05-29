@@ -1,4 +1,4 @@
- import logo from '../assets/image/logo-footer.png'
+ import logo from '../assets/image/logo-branca.png'
  
  function Header() {
   return (
